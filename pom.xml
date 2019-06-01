@@ -13,6 +13,7 @@
         <module>service-one</module>
         <module>service-feign</module>
         <module>service-zuul</module>
+        <module>service-thread</module>
     </modules>
 
     <properties>
