@@ -68,6 +68,5 @@ public class ThreadTest {
         map.put(2, "two");
         map.put(3, "three");
         System.out.println(map.getOrDefault(6,"12133"));
-
     }
 }
