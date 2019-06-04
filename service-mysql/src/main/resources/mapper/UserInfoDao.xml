@@ -7,4 +7,8 @@
     </select>
 
 
+    <insert id="addUserInfo"  parameterType="com.gzw.bean.UserInfo">
+        insert into user_info (user_id,user_name,user_no) value (#{userId},#{userName},#{userNo})
+    </insert>
+
 </mapper>

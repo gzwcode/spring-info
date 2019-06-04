@@ -15,4 +15,10 @@ public class UserInfoServiceImpl implements UserInfoService {
     public UserInfo getUserInfoById(Integer userId) {
         return userInfoDao.getUserInfoById(userId);
     }
+
+
+    @Override
+    public Integer addUserInfo(UserInfo userInfo) {
+        return userInfoDao.addUserInfo(userInfo);
+    }
 }
