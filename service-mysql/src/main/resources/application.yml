@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: service-mysql
+  datasource:
+    username: root
+    password: admin
+    url: jdbc:mysql://localhost:3306/gzw?characterEncoding=UTF-8&useSSL=false
+#    driver-class-name: com.mysql.jdbc.Driver
+
+
+server:
+  port: 8767
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+
+logging:
+  level:
+    com:
+      gzw:
+        dao: debug
+
