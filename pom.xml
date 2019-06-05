@@ -16,6 +16,7 @@
         <module>service-thread</module>
         <module>service-gateway</module>
         <module>service-mysql</module>
+        <module>service-oracle</module>
     </modules>
 
     <properties>
