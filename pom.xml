@@ -17,6 +17,8 @@
         <module>service-gateway</module>
         <module>service-mysql</module>
         <module>service-oracle</module>
+        <module>service-mq</module>
+        <module>service-redis</module>
     </modules>
 
     <properties>

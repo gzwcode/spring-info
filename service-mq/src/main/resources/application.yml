@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: service-mq
+
+server:
+  port: 8768
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+
