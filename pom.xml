@@ -19,6 +19,7 @@
         <module>service-oracle</module>
         <module>service-mq</module>
         <module>service-redis</module>
+        <module>serive-netty</module>
     </modules>
 
     <properties>

@@ -11,17 +11,17 @@ public class RedisController {
 
 
     @Autowired
-    private StringRedisTemplate redisTemplate;
+    private StringRedisTemplate stringRedisTemplate;
 
     @GetMapping("/get")
     public String getValue(@RequestParam("key") String key) {
-        return redisTemplate.opsForValue().get(key);
+        return stringRedisTemplate.opsForValue().get(key);
     }
 
 
     @GetMapping("/set")
     public void setValue(@RequestParam("key") String key,@RequestParam("value")String value) {
-        redisTemplate.opsForValue().set(key,value);
+        stringRedisTemplate.opsForValue().set(key,value);
     }
 
 

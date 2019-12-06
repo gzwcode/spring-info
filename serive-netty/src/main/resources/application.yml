@@ -1,9 +1,9 @@
 spring:
   application:
-    name: service-mq
+    name: service-netty
 
 server:
-  port: 8768
+  port: 8089
 
 eureka:
   client:
